@@ -1,0 +1,129 @@
+/* Navbar CSS */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  .navbar button {
+    color: white;
+    background-color: #6f137d;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #711069;
+  }
+  .profile-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+ .profile-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.logout-btn, .login-signup-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
+
+.login-signup-btn {
+  background-color: green;
+}
+
+.login-signup-btn:hover {
+  background-color: darkgreen;
+}
+/* Search Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+  /* Search Bar */
+  .search-form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 25px;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    width: 250px; /* Adjust width */
+    position: relative;
+  }
+  
+  /* Search Input */
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  /* Search Button */
+  .search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Search Icon */
+  .search-btn svg {
+    font-size: 20px; /* Set a proper size */
+    color: #555;
+  }
+  
